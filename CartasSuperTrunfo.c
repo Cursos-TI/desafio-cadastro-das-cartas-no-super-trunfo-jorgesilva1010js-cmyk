@@ -1,22 +1,51 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+int main(int argc, char const *argv[])
+{
+    char carta1 [20] = "carta1";
+    char estado [20] = "estado";
+    char codigocidade [20] = "A1";
+    char nomecidade [20] = "nome";
+    int populacao;
+    float area;
+    float PIB;
+    int pontosturisticos;
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf("Carta1 \n");
+
+    printf("Informe o estado: ");
+    scanf("%s", &estado);
+   //printf("O estado é: %s\n" estado);
+
+
+    printf("Informe o código da cidade: ");
+    scanf("%s", &codigocidade);
+    //printf("O código da cidade é: %s\n", codigocidade);
+
+    printf("Informe o nome da cidade: ");
+    scanf("%s", &nomecidade);
+    //printf("O nome da cidade é: %s\n", nomecidade);
+
+    printf("Informe a populacao: ");
+    scanf("%d", &populacao);
+   // printf("População total é: %d\n", populacao);
+
+    printf("Informe a área: ");
+    scanf("%f", &area);
+    //printf("A área toal é: %f\n", area);
+
+    printf("Informe o PIB: ");
+    scanf("%f", &PIB);
+    //printf("A área toal é: %f\n", PIB);
+
+    printf("Informe o número de pontos turisticos: ");
+    scanf("%d", &pontosturisticos);
+    //printf("População total é: %d\n", pontosturisticos);
+  
+    printf("Carta 1: %s\n - estado: %d\n - codigocidade: %s\n - nomecidade: %s\n", carta1, estado, codigocidade, nomecidade);
+    printf(" - populacao: %d\n - area: %f\n - PIB: %f\n - pontosturisticos: %d", populacao, area, PIB, pontosturisticos);
+
 
     return 0;
+
 }
