@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 
     printf("Carta1");
 
-    printf("Informe o estado:\n ");
+    printf("Informe o estado: ");
     scanf("%s", &estado);
    //printf("O estado é: %s\n", estado);
 
