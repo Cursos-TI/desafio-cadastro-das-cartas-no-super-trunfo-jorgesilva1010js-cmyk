@@ -11,22 +11,22 @@ int main(int argc, char const *argv[])
     float PIB;
     int pontosturisticos;
 
-    printf("Carta1");
+    printf("Carta1 \n");
 
     printf("Informe o estado: ");
     scanf("%s", &estado);
-   //printf("O estado é: %s\n", estado);
+   //printf("O estado é: %s\n" estado);
 
 
     printf("Informe o código da cidade: ");
     scanf("%s", &codigocidade);
     //printf("O código da cidade é: %s\n", codigocidade);
 
-    printf("Informe o nome da cidade: \n");
+    printf("Informe o nome da cidade: ");
     scanf("%s", &nomecidade);
     //printf("O nome da cidade é: %s\n", nomecidade);
 
-    printf("Informe a populacao: \n");
+    printf("Informe a populacao: ");
     scanf("%d", &populacao);
    // printf("População total é: %d\n", populacao);
 
@@ -38,11 +38,11 @@ int main(int argc, char const *argv[])
     scanf("%f", &PIB);
     //printf("A área toal é: %f\n", PIB);
 
-    printf("Informe o número de pontos turisticos: \n");
+    printf("Informe o número de pontos turisticos: ");
     scanf("%d", &pontosturisticos);
     //printf("População total é: %d\n", pontosturisticos);
   
-    printf("Carta 1: carta1: %s\n, - estado: %d\n - codigocidade %s\n - nomecidade %s\n", carta1, estado, codigocidade, nomecidade);
+    printf("Carta 1: %s\n - estado: %d\n - codigocidade: %s\n - nomecidade: %s\n", carta1, estado, codigocidade, nomecidade);
     printf(" - populacao: %d\n - area: %f\n - PIB: %f\n - pontosturisticos: %d", populacao, area, PIB, pontosturisticos);
 
 
